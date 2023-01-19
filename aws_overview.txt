@@ -1,0 +1,169 @@
+What is cloud computing?
+A. The delivery of computer hardware and software through the internet
+B. The on-demand delivery of compute power, database, storage, applications, and other IT resources through a cloud services platform via the Internet
+C. A method of data storage using physical hard drives
+D. A way to access servers, storage, databases and a broad set of application services over the internet
+E. None of the above
+Answer: B. The on-demand delivery of compute power, database, storage, applications, and other IT resources through a cloud services platform via the Internet
+
+What are the benefits of using cloud computing for IT resources?
+A. No need for large upfront investments in hardware and less time spent managing it
+B. Pay-as-you-go pricing
+C. Rapid access to flexible and low-cost IT resources
+D. All of the above
+E. None of the above
+Answer: D. All of the above
+
+How can cloud computing help with capacity decision making?
+A. By eliminating the need to guess on infrastructure capacity needs
+B. By allowing access to as much or as little capacity as needed
+C. By scaling up and down as required with only a few minutes' notice
+D. All of the above
+E. None of the above
+Answer: D. All of the above
+
+How does cloud computing affect the time it takes to make IT resources available to developers?
+A. It increases the time it takes
+B. It has no effect on the time it takes
+C. It reduces the time it takes from weeks to just minutes
+D. It eliminates the need for IT resources
+E. None of the above
+Answer: C. It reduces the time it takes from weeks to just minutes
+
+What is the benefit of cloud computing for businesses?
+A. Businesses can focus on their own customers, rather than on the heavy lifting of managing IT resources
+B. Businesses can easily deploy applications in multiple regions around the world
+C. Businesses can provide lower latency and a better experience for customers at minimal cost
+D. All of the above
+E. None of the above
+Answer: D. All of the above
+
+What is the main benefit of cloud computing for developers and IT departments?
+A. It allows them to focus on what matters most
+B. It provides them with more control and flexibility
+C. It eliminates undifferentiated work such as procurement, maintenance, and capacity planning
+D. It is more cost-effective than traditional IT resources
+E. None of the above
+Answer: C. It eliminates undifferentiated work such as procurement, maintenance, and capacity planning
+
+What is the difference between Infrastructure as a Service, Platform as a Service, and Software as a Service?
+A. IaaS provides access to networking features, computers, and data storage space, PaaS removes the need to manage the underlying infrastructure, and SaaS provides a completed product that is run and managed by the service provider.
+B. IaaS is the most similar to existing IT resources, PaaS provides more control and flexibility, and SaaS is the most cost-effective.
+C. IaaS is the most commonly used type of cloud service, PaaS is the most flexible, and SaaS is the most efficient
+D. IaaS is the most similar to on-premises deployment, PaaS is the most similar to existing IT resources, and SaaS is the most similar to cloud-based applications
+E. None of the above
+Answer: A. IaaS provides access to networking features, computers, and data storage space, PaaS removes the need to manage the underlying infrastructure, and SaaS provides a completed product that is run and managed by the service provider.
+
+What is a cloud-based application?
+A. An application that is fully deployed in the cloud and all parts of the application run in the cloud
+B. An application that has been created in the cloud or migrated from an existing infrastructure to take advantage of the benefits of cloud computing
+C. An application that is run and managed by the service provider
+D. An application that is built on low-level infrastructure pieces
+E. None of the above
+Answer: B. An application that has been created in the cloud or migrated from an existing infrastructure to take advantage of the benefits of cloud computing
+
+What is a hybrid deployment?
+A. A way to connect infrastructure and applications between cloud-based resources and existing resources that are not located in the cloud
+B. A deployment of resources on-premises, using virtualization and resource management tools
+C. A deployment model that provides dedicated resources
+D. A deployment model that provides the benefits of cloud computing
+E. None of the above
+Answer: A. A way to connect infrastructure and applications between cloud-based resources and existing resources that are not located in the cloud
+
+How many active customers does AWS serve in total?
+A. A million active customers in more than 240 countries and territories
+B. A few hundred customers worldwide
+C. 50 active customers in a few select countries
+D. More than 10 million active customers in over 500 countries and territories
+E. None of the above
+Answer: A. A million active customers in more than 240 countries and territories
+
+What is an AWS Region?
+A. A physical location in the world where there are multiple Availability Zones
+B. A virtual location in the cloud where resources are stored
+C. A data center that is physically separated from other data centers
+D. A location where customers can access AWS services
+E. None of the above
+Answer: A. A physical location in the world where there are multiple Availability Zones
+
+What is the purpose of Availability Zones?
+A. To offer the ability to operate production applications and databases that are more highly available, fault tolerant, and scalable than would be possible from a single data center.
+B. To provide access to AWS services in specific geographic regions
+C. To provide a way to store data in multiple locations
+D. To provide a way to scale and innovate while maintaining a secure environment
+E. None of the above
+Answer: A. To offer the ability to operate production applications and databases that are more highly available, fault tolerant, and scalable than would be possible from a single data center.
+
+How does AWS ensure security for its customers?
+A. By using software-based security tools to monitor and protect the flow of information into and out of cloud resources
+B. By providing a shared responsibility model where the customer is responsible for security in the cloud
+C. By maintaining physical servers and storage devices
+D. By providing a lower cost security option than an on-premises environment
+E. All of the above
+Answer: B. By providing a shared responsibility model where the customer is responsible for security in the cloud
+
+What is an advantage of using AWS Cloud over an on-premises environment?
+A. The ability to scale and innovate while maintaining a secure environment and paying only for the services you use
+B. Lower cost of security
+C. The ability to store data in multiple geographic regions
+D. All of the above
+E. None of the above
+Answer: D. All of the above
+
+How can you access and manage Amazon Web Services?
+A. Through the AWS Management Console
+B. Through the AWS Console Mobile Application
+C. Through the AWS Command Line Interface
+D. Through the Software Development Kits
+E. All of the above
+Answer: E. All of the above
+
+What is Amazon Athena?
+A. A tool to manage multiple AWS services from the command line
+B. A service that makes it easy to analyze data in Amazon S3 using standard SQL
+C. A service that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application
+D. A service that makes it easy to deploy, secure, operate, and scale Elasticsearch to search, analyze, and visualize data in real-time
+E. None of the above
+Answer: B. A service that makes it easy to analyze data in Amazon S3 using standard SQL
+
+What is Amazon CloudSearch?
+A. A service that makes it easy to analyze data in Amazon S3 using standard SQL
+B. A managed service that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application
+C. A service that makes it easy to deploy, secure, operate, and scale Elasticsearch to search, analyze, and visualize data in real-time
+D. A tool to manage multiple AWS services from the command line
+E. None of the above
+Answer: B. A managed service that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application
+
+What is Amazon Elasticsearch Service?
+A. A service that makes it easy to deploy, secure, operate, and scale Elasticsearch to search, analyze, and visualize data in real-time
+B. A service that makes it easy to analyze data in Amazon S3 using standard SQL
+C. A managed service that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application
+D. A tool to manage multiple AWS services from the command line
+E. None of the above
+Answer: A. A service that makes it easy to deploy, secure, operate, and scale Elasticsearch to search, analyze, and visualize data in real-time
+
+What are some of the integrations available with Amazon Elasticsearch Service?
+A. Open-source tools like Kibana and Logstash for data ingestion and visualization
+B. AWS Glue Data Catalog
+C. Amazon Virtual Private Cloud (Amazon VPC)
+D. AWS Key Management Service (AWS KMS)
+E. All of the above
+Answer: E. All of the above
+
+
+END
+
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. ""
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data. Recall the definition of consistency from the CAP theorem - Every read receives the most recent write or an error. In the case of weak consistency, After a write, reads may or may not see it, a best effort approach is taken. This approach is seen in systems such as memcached. Weak consistency works well in real time use cases such as VoIP, video chat, and realtime multiplayer games. For example, if you are on a phone call and lose reception for a few seconds, when you regain connection you do not hear what was spoken during connection loss. In the case of eventual consistency, After a write, reads will eventually see it (typically within milliseconds), data is replicated asynchronously. This approach is seen in systems such as DNS and email. Eventual consistency works well in highly available systems. In the case of strong consistency, After a write, reads will see it, Data is replicated synchronously. This approach is seen in file systems and RDBMSes. Strong consistency works well in systems that need transactions.
+
+
+
+
+
+
+
+
+
+

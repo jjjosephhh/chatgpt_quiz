@@ -1,0 +1,127 @@
+What does it mean for a service to be scalable?
+A. The service's performance increases in proportion to resources added
+B. The service's performance decreases in proportion to resources added
+C. The service's performance is not affected by resources added
+D. The service's performance increases in inverse proportion to resources added
+E. The service's performance decreases in inverse proportion to resources added
+Answer: A. The service's performance increases in proportion to resources added
+
+What does increasing performance mean in the context of scalability?
+A. Serving more units of work
+B. Handling larger units of work
+C. Decreasing the amount of work
+D. Increasing the speed of work
+E. Both A and B
+Answer: E. Both A and B
+
+What is the difference between a performance problem and a scalability problem?
+A. A performance problem is slow for a single user, a scalability problem is slow under heavy load
+B. A scalability problem is slow for a single user, a performance problem is slow under heavy load
+C. Both are the same problem with different wording
+D. A performance problem is fast for a single user, a scalability problem is fast under heavy load
+E. A scalability problem is slow for a single user, a performance problem is fast under heavy load
+Answer: A. A performance problem is slow for a single user, a scalability problem is slow under heavy load
+
+Which two guarantees should you aim for in a distributed computer system if you need atomic reads and writes?
+A. Consistency and Availability
+B. Consistency and Partition Tolerance
+C. Availability and Partition Tolerance
+D. Latency and Throughput
+E. Performance and Scalability
+Answer: B. Consistency and Partition Tolerance
+
+What happens when you choose availability and partition tolerance in a distributed computer system?
+A. Responses return the most recent version of the data
+B. Writes propagate quickly when the partition is resolved
+C. Responses return the most readily available version of the data, which might not be the latest
+D. Writes may take some time to propagate when the partition is resolved
+E. The system becomes more consistent
+Answer: C. Responses return the most readily available version of the data, which might not be the latest, and D. Writes may take some time to propagate when the partition is resolved
+
+Q1. What is the definition of consistency in the context of the CAP theorem?
+A. Every read receives the most recent write or an error.
+B. Every read receives the most recent write or an old value.
+C. Every read receives the most recent write or a new value.
+D. Every read receives the most recent write or a random value.
+E. Every read receives the most recent write or a null value.
+Answer: A
+
+Q2. What is the approach used in systems such as memcached?
+A. Weak consistency
+B. Eventual consistency
+C. Strong consistency
+D. Real time consistency
+E. None of the above
+Answer: A
+
+Q3. What type of systems is weak consistency well suited for?
+A. VoIP
+B. Video chat
+C. Realtime multiplayer games
+D. File systems
+E. RDBMSes
+Answer: A, B, C
+
+Q4. What type of systems is eventual consistency well suited for?
+A. DNS
+B. Email
+C. File systems
+D. RDBMSes
+E. Realtime multiplayer games
+Answer: A, B
+
+Q5. What type of systems is strong consistency well suited for?
+A. File systems
+B. RDBMSes
+C. VoIP
+D. Video chat
+E. Realtime multiplayer games
+Answer: A, B
+
+END
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. There are two complementary patterns to support high availability: fail-over and replication. With active-passive fail-over, heartbeats are sent between the active and the passive server on standby. If the heartbeat is interrupted, the passive server takes over the active's IP address and resumes service. The length of downtime is determined by whether the passive server is already running in 'hot' standby or whether it needs to start up from 'cold' standby. Only the active server handles traffic. Active-passive failover can also be referred to as master-slave failover. In active-active, both servers are managing traffic, spreading the load between them. If the servers are public-facing, the DNS would need to know about the public IPs of both servers. If the servers are internal-facing, application logic would need to know about both servers. Active-active failover can also be referred to as master-master failover. Fail-over adds more hardware and additional complexity. There is a potential for loss of data if the active system fails before any newly written data can be replicated to the passive. 
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. Availability is often quantified by uptime (or downtime) as a percentage of time the service is available. Availability is generally measured in number of 9s--a service with 99.99% availability is described as having four 9s. 99.9% availability (three 9s) means 8h 45min 57s of downtime per year, 43m 49.7s of downtime per month, 10m 4.8s of downtime per week, and 1m 26.4s of downtime per day. 99.99% availability (four 9s) means 52min 35.7s of downtime per year, 4m 23s of downtime per month, 1m 5s of downtime per week, and 8.6s of downtime per day. If a service consists of multiple components prone to failure, the service's overall availability depends on whether the components are in sequence or in parallel. Overall availability decreases when two components with availability less than 100% are in sequence. If both Foo and Bar each had 99.9% availability, their total availability in sequence would be 99.8%. Overall availability increases when two components with availability less than 100% are in parallel. If both Foo and Bar each had 99.9% availability, their total availability in parallel would be 99.9999%.
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address. DNS is hierarchical, with a few authoritative servers at the top level. Your router or ISP provides information about which DNS server(s) to contact when doing a lookup. Lower level DNS servers cache mappings, which could become stale due to DNS propagation delays. DNS results can also be cached by your browser or OS for a certain period of time, determined by the time to live (TTL). An NS record (name server) Specifies the DNS servers for your domain/subdomain. An MX record (mail exchange) Specifies the mail servers for accepting messages. An "A record" (address) Points a name to an IP address. A CNAME (canonical) Points a name to another name or CNAME (example.com to www.example.com) or to an "A record". Services such as CloudFlare and Route 53 provide managed DNS services. Some DNS services can route traffic through various methods. Accessing a DNS server introduces a slight delay, although this delay can be mitigated by caching. DNS server management could be complex and is generally managed by governments, ISPs, and large companies. DNS services have recently come under DDoS attack, preventing users from accessing websites such as Twitter without knowing Twitter's IP address(es). 
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user. Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN, although some CDNs such as Amazon's CloudFront support dynamic content. The site's DNS resolution will tell clients which server to contact. Serving content from CDNs can significantly improve performance because Users receive content from data centers close to them and Your servers do not have to serve requests that the CDN fulfills. Push CDNs receive new content whenever changes occur on your server. You take full responsibility for providing content, uploading directly to the CDN and rewriting URLs to point to the CDN. You can configure when content expires and when it is updated. Content is uploaded only when it is new or changed, minimizing traffic, but maximizing storage. Sites with a small amount of traffic or sites with content that isn't often updated work well with push CDNs. Content is placed on the CDNs once, instead of being re-pulled at regular intervals. Pull CDNs grab new content from your server when the first user requests the content. You leave the content on your server and rewrite URLs to point to the CDN. This results in a slower request until the content is cached on the CDN. A time-to-live (TTL) determines how long content is cached. Pull CDNs minimize storage space on the CDN, but can create redundant traffic if files expire and are pulled before they have actually changed. Sites with heavy traffic work well with pull CDNs, as traffic is spread out more evenly with only recently-requested content remaining on the CDN. CDN costs could be significant depending on traffic, although this should be weighed with additional costs you would incur not using a CDN. Content might be stale if it is updated before the TTL expires it. CDNs require changing URLs for static content to point to the CDN.
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. Load balancers distribute incoming client requests to computing resources such as application servers and databases. In each case, the load balancer returns the response from the computing resource to the appropriate client. Load balancers are effective at Preventing requests from going to unhealthy servers, Preventing overloading resources, and Helping to eliminate a single point of failure. Load balancers can be implemented with hardware (expensive) or with software such as HAProxy. Load balancers can Decrypt incoming requests and encrypt server responses so backend servers do not have to perform these potentially expensive operations. Load balancers can Issue cookies and route a specific client's requests to same instance if the web apps do not keep track of sessions. To protect against failures, it's common to set up multiple load balancers, either in active-passive or active-active mode. Layer 4 load balancers look at info at the transport layer to decide how to distribute requests. Generally, this involves the source, destination IP addresses, and ports in the header, but not the contents of the packet. Layer 4 load balancers forward network packets to and from the upstream server, performing Network Address Translation (NAT). Layer 7 load balancers look at the application layer to decide how to distribute requests. This can involve contents of the header, message, and cookies. Layer 7 load balancers terminate network traffic, reads the message, makes a load-balancing decision, then opens a connection to the selected server. For example, a layer 7 load balancer can direct video traffic to servers that host videos while directing more sensitive user billing traffic to security-hardened servers. At the cost of flexibility, layer 4 load balancing requires less time and computing resources than Layer 7, although the performance impact can be minimal on modern commodity hardware. Load balancers can also help with horizontal scaling, improving performance and availability. Scaling out using commodity machines is more cost efficient and results in higher availability than scaling up a single server on more expensive hardware, called Vertical Scaling. It is also easier to hire for talent working on commodity hardware than it is for specialized enterprise systems. Scaling horizontally introduces complexity and involves cloning servers. Servers should be stateless: they should not contain any user-related data like sessions or profile pictures. Sessions can be stored in a centralized data store such as a database (SQL, NoSQL) or a persistent cache (Redis, Memcached). Downstream servers such as caches and databases need to handle more simultaneous connections as upstream servers scale out. The load balancer can become a performance bottleneck if it does not have enough resources or if it is not configured properly. Introducing a load balancer to help eliminate a single point of failure results in increased complexity. Although single load balancer is a single point of failure, configuring multiple load balancers further increases complexity. Deploying a load balancer is useful when you have multiple servers. Often, load balancers route traffic to a set of servers serving the same function.
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. A reverse proxy is a web server that centralizes internal services and provides unified interfaces to the public. Requests from clients are forwarded to a server that can fulfill it before the reverse proxy returns the server's response to the client. Reverse proxies Hide information about backend servers, blacklist IPs, and limit number of connections per client. Clients only see the reverse proxy's IP, allowing you to scale servers or change their configuration. Reverse proxies can Decrypt incoming requests and encrypt server responses so backend servers do not have to perform these potentially expensive operations. Reverse proxies can Compress server responses. Reverse proxies can Return the response for cached requests. Reverse proxies can Serve static content directly. Reverse proxies can be useful even with just one web server or application server. 
+
+Create 5 multiple choice questions concerning the following content, each with 5 options, and display the answer to each question below the options. Separating out the web layer from the application layer (also known as platform layer) allows you to scale and configure both layers independently. Adding a new API results in adding application servers without necessarily adding additional web servers. The single responsibility principle advocates for small and autonomous services that work together. Small teams with small services can plan more aggressively for rapid growth. Workers in the application layer also help enable asynchronism. Related to this discussion are microservices, which can be described as a suite of independently deployable, small, modular services. Each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal. Systems such as Consul, Etcd, and Zookeeper can help services find each other by keeping track of registered names, addresses, and ports. Health checks help verify service integrity and are often done using an HTTP endpoint. Both Consul and Etcd have a built in key-value store that can be useful for storing config values and other shared data. Adding an application layer with loosely coupled services requires a different approach from an architectural, operations, and process viewpoint (vs a monolithic system). Microservices can add complexity in terms of deployments and operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
