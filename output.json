@@ -1,0 +1,244 @@
+[
+    {
+        "question": "What are the benefits of using AWS for software development teams?",
+        "options": [
+            "A. On-demand access to a wide range of cloud infrastructure services",
+            "B. Elimination of the need for costly hardware and administrative pain",
+            "C. Significant operational advantages",
+            "D. Ability to set up a development and test infrastructure quickly",
+            "E. Allocation of resources depending on each project’s needs and budget"
+        ],
+        "answer": "A, B, C, D, E"
+    },
+    {
+        "question": "What type of expenditure is associated with owning hardware and IT infrastructure?",
+        "options": [
+            "A. One-time",
+            "B. Monthly",
+            "C. Quarterly",
+            "D. Capital",
+            "E. Recurring"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What is an Amazon Machine Image (AMI)?",
+        "options": [
+            "A. A template that contains a software configuration (operating system, application server, and applications) that you can run on Amazon EC2.",
+            "B. A virtual machine over which developers have complete control.",
+            "C. An Elastic IP Address that provides a static endpoint to an Amazon EC2 instance.",
+            "D. An Amazon Elastic Block Store (Amazon EBS) volume that persists independently from the life of an instance.",
+            "E. An Amazon Simple Storage Service (Amazon S3) object that is redundantly stored on multiple devices across multiple facilities in an Amazon S3 Region."
+        ],
+        "answer": "A. A template that contains a software configuration (operating system, application server, and applications) that you can run on Amazon EC2."
+    },
+    {
+        "question": "What is the maximum storage capacity of an Amazon Elastic Block Store (Amazon EBS) volume?",
+        "options": [
+            "A. 1 MB",
+            "B. 5 MB",
+            "C. 10 MB",
+            "D. 100 MB",
+            "E. 1 TB"
+        ],
+        "answer": "E. 1 TB"
+    },
+    {
+        "question": "What is the challenge of running tests on AWS?",
+        "options": [
+            "A. Provisioning infrastructure resources",
+            "B. Automating the process of running tests",
+            "C. Ensuring enough resources are available",
+            "D. Initializing test environments with the right software",
+            "E. All of the above"
+        ],
+        "answer": "E. All of the above"
+    },
+    {
+        "question": "What is the benefit of using AWS CloudFormation?",
+        "options": [
+            "A. Creating and deleting a collection of resources together as a single unit",
+            "B. Using templates to create and delete a collection of resources",
+            "C. Describing a complete test environment running on AWS in a template",
+            "D. Editing and managing templates in the same source code repository",
+            "E. All of the above"
+        ],
+        "answer": "E. All of the above"
+    },
+    {
+        "question": "What is the equivalent of hibernating the operating system when shutting down a development environment?",
+        "options": [
+            "A. Stop the instances",
+            "B. Terminate them",
+            "C. DeleteOnTermination flag",
+            "D. Commit all work",
+            "E. Recreate from an AMI"
+        ],
+        "answer": "A. Stop the instances"
+    },
+    {
+        "question": "What happens to the data stored on ephemeral drives when a stop/start sequence is performed?",
+        "options": [
+            "A. Data is stored",
+            "B. Data is backed up",
+            "C. Data is lost",
+            "D. Data is deleted",
+            "E. Data is committed"
+        ],
+        "answer": "C. Data is lost"
+    },
+    {
+        "question": "What is the DeleteOnTermination flag?",
+        "options": [
+            "A. Used to commit all work",
+            "B. Used to save resources and cost",
+            "C. Used to delete the root device",
+            "D. Used to store data",
+            "E. Used to prevent data loss"
+        ],
+        "answer": "C. Used to delete the root device"
+    },
+    {
+        "question": "What does Amazon VPC allow?",
+        "options": [
+            "A. To store source code",
+            "B. To bundle AMI(s)",
+            "C. To extend the on-premise private network to the cloud",
+            "D. To install and maintain specialized sets of tools",
+            "E. To switch context"
+        ],
+        "answer": "C. To extend the on-premise private network to the cloud"
+    },
+    {
+        "question": "What is the purpose of creating separate accounts for development and test activities?",
+        "options": [
+            "A. To help customers understand the development and test cycle",
+            "B. To separate teams and responsibilities",
+            "C. To enable collaboration",
+            "D. To simplify payments",
+            "E. To organize and track AWS costs"
+        ],
+        "answer": "B. To separate teams and responsibilities"
+    },
+    {
+        "question": "What does AWS offer to enable sharing of resources across accounts?",
+        "options": [
+            "A. Amazon S3 objects",
+            "B. AMIs",
+            "C. Amazon EBS Snapshots",
+            "D. Cost Allocation Report",
+            "E. Resource tagging"
+        ],
+        "answer": "A. Amazon S3 objects, B. AMIs, C. Amazon EBS Snapshots"
+    },
+    {
+        "question": "What is the purpose of resource tagging?",
+        "options": [
+            "A. To help customers understand the development and test cycle",
+            "B. To separate teams and responsibilities",
+            "C. To enable collaboration",
+            "D. To simplify payments",
+            "E. To organize and track AWS costs"
+        ],
+        "answer": "E. To organize and track AWS costs"
+    },
+    {
+        "question": "What does the AWS Global Cloud Infrastructure consist of?",
+        "options": [
+            "A. Availability Zones, Regions, and Edge Networks",
+            "B. Servers, Networking Devices, and Storage Appliances",
+            "C. Data Centers, Servers, and Networking Devices",
+            "D. Availability Zones, Data Centers, and Edge Networks",
+            "E. Regions, Servers, and Storage Appliances"
+        ],
+        "answer": "A. Availability Zones, Regions, and Edge Networks"
+    },
+    {
+        "question": "What is the AWS Global Cloud Infrastructure used for?",
+        "options": [
+            "A. To provide a secure and reliable cloud platform",
+            "B. To run applications in two or more data centers",
+            "C. To deliver cached content to global end-users",
+            "D. To open up new regions faster than other cloud providers",
+            "E. To serve over a million active customers in 190 countries"
+        ],
+        "answer": "A. To provide a secure and reliable cloud platform"
+    },
+    {
+        "question": "How many data centers does AWS own and operate?",
+        "options": [
+            "A. Hundreds",
+            "B. Thousands",
+            "C. Tens of thousands",
+            "D. Hundreds of thousands",
+            "E. Millions"
+        ],
+        "answer": "B. Thousands"
+    },
+    {
+        "question": "What is the primary purpose of using data centers?",
+        "options": [
+            "A. To house computer systems, network devices, and storage appliances",
+            "B. To open up new regions faster than other cloud providers",
+            "C. To deliver cached content to global end-users",
+            "D. To provide a secure and reliable cloud platform",
+            "E. To serve over a million active customers in 190 countries"
+        ],
+        "answer": "A. To house computer systems, network devices, and storage appliances"
+    },
+    {
+        "question": "What is an Availability Zone?",
+        "options": [
+            "A. A cluster of interconnected data centers in a specific geographic zone",
+            "B. A single AWS Region",
+            "C. A single datacenter",
+            "D. A specific country",
+            "E. A data privacy compliance"
+        ],
+        "answer": "A. A cluster of interconnected data centers in a specific geographic zone"
+    },
+    {
+        "question": "What is the purpose of running an application or a database in two or more Availability Zones?",
+        "options": [
+            "A. To improve the durability of data",
+            "B. To replicate data to two or more regions",
+            "C. To comply with data sovereignty requirement",
+            "D. To build a highly available, fault-tolerant, and scalable cloud architecture",
+            "E. To store sensitive data in a certain location or country"
+        ],
+        "answer": "D. To build a highly available, fault-tolerant, and scalable cloud architecture"
+    },
+    {
+        "question": "What is the typical distance between the data centers of a single Availability Zone?",
+        "options": [
+            "A. 100 kilometers",
+            "B. 60 miles",
+            "C. Hundreds of kilometers",
+            "D. Hundreds of miles",
+            "E. Within a specific country"
+        ],
+        "answer": "B. 60 miles"
+    },
+    {
+        "question": "What is the purpose of replicating data to two or more regions?",
+        "options": [
+            "A. To improve the durability of data",
+            "B. To comply with data sovereignty requirement",
+            "C. To build a highly available, fault-tolerant, and scalable cloud architecture",
+            "D. To store sensitive data in a certain location or country",
+            "E. To replicate data to two or more availability zones"
+        ],
+        "answer": "A. To improve the durability of data"
+    },
+    {
+        "question": "What is the purpose of data sovereignty requirement?",
+        "options": [
+            "A. To improve the durability of data",
+            "B. To replicate data to two or more regions",
+            "C. To comply with data sovereignty requirement",
+            "D. To build a highly available, fault-tolerant, and scalable cloud architecture",
+            "E. To store sensitive data in a certain location or country"
+        ],
+        "answer": "E. To store sensitive data in a certain location or country"
+    }
+]

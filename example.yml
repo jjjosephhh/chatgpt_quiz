@@ -14,30 +14,6 @@ What type of expenditure is associated with owning hardware and IT infrastructur
   - E. Recurring
   - D
 
-What type of timescale usually applies to development and test teams?:
-  - A. Hours
-  - B. Days
-  - C. Weeks
-  - D. Months
-  - E. Years
-  - A, B, C, D
-
-What are the advantages of operating development tools on AWS?:
-  - A. Reduced system maintenance tasks
-  - B. Centralized production
-  - C. Rationalized process
-  - D. Coordinated efforts
-  - E. Increased scalability
-  - A, D, E
-
-What is the main benefit of using AWS instead of traditional hardware?:
-  - A. Reduced cost
-  - B. Increased scalability
-  - C. Quicker setup time
-  - D. Increased production
-  - E. Reduced administrative pain
-  - A, C, E 
-
 What is an Amazon Machine Image (AMI)?:
   - A. A template that contains a software configuration (operating system, application server, and applications) that you can run on Amazon EC2. 
   - B. A virtual machine over which developers have complete control. 
@@ -45,22 +21,6 @@ What is an Amazon Machine Image (AMI)?:
   - D. An Amazon Elastic Block Store (Amazon EBS) volume that persists independently from the life of an instance. 
   - E. An Amazon Simple Storage Service (Amazon S3) object that is redundantly stored on multiple devices across multiple facilities in an Amazon S3 Region. 
   - A. A template that contains a software configuration (operating system, application server, and applications) that you can run on Amazon EC2. 
-
-What is the purpose of creating an Amazon Elastic Compute Cloud (Amazon EC2) instance?:
-  - A. To durably store the data of the version control repository. 
-  - B. To quickly recreate an instance without having to reinstall and reconfigure the version control software.
-  - C. To store the repository’s data separately from the host system. 
-  - D. To provide a static endpoint to an Amazon EC2 instance. 
-  - E. To take point-in-time snapshots of the EBS volume containing the repository data. 
-  - B. To quickly recreate an instance without having to reinstall and reconfigure the version control software.
-
-How can you achieve durability of the source code repository?:
-  - A. By creating an Amazon Elastic Compute Cloud (Amazon EC2) instance.
-  - B. By taking point-in-time snapshots of the EBS volume containing the repository data. 
-  - C. By storing the repository’s data separately from the host system. 
-  - D. By using an Elastic IP Address to provide a static endpoint to an Amazon EC2 instance. 
-  - E. By using Amazon Simple Storage Service (Amazon S3) to redundantly store objects on multiple devices across multiple facilities in an Amazon S3 Region. 
-  - B. By taking point-in-time snapshots of the EBS volume containing the repository data. 
 
 What is the maximum storage capacity of an Amazon Elastic Block Store (Amazon EBS) volume?:
   - A. 1 MB
@@ -70,14 +30,6 @@ What is the maximum storage capacity of an Amazon Elastic Block Store (Amazon EB
   - E. 1 TB
   - E. 1 TB
 
-What are two solutions available when the source code repository grows and requires more storage capacity?:
-  - A. Provision and attach additional Amazon EBS volumes to the repository instance. 
-  - B. Provision a new larger Amazon EBS volume based on a recent snapshot of the existing repository data. 
-  - C. Store the repository’s data separately from the host system. 
-  - D. Use an Elastic IP Address to provide a static endpoint to an Amazon EC2 instance. 
-  - E. Use Amazon Simple Storage Service (Amazon S3) to redundantly store objects on multiple devices across multiple facilities in an Amazon S3 Region. 
-  - A, B
-
 What is the challenge of running tests on AWS?:
   - A. Provisioning infrastructure resources 
   - B. Automating the process of running tests 
@@ -86,22 +38,6 @@ What is the challenge of running tests on AWS?:
   - E. All of the above 
   - E. All of the above 
 
-What is the benefit of running tests on AWS?:
-  - A. Automating the process of running tests 
-  - B. Creating tests suites on AWS 
-  - C. Allocating a new server, allocating and attaching storage, allocating a database 
-  - D. Designing tests suites on AWS 
-  - E. All of the above 
-  - E. All of the above 
-
-What is the challenge with AMI-based deployments?:
-  - A. Having to define a strategy for managing and maintaining multiple versions of AMIs 
-  - B. Automating the process of creating a new AMI 
-  - C. Provisioning Amazon EC2 instances from AMIs 
-  - D. Instantiating a fully operational database 
-  - E. All of the above 
-  - A. Having to define a strategy for managing and maintaining multiple versions of AMIs 
-
 What is the benefit of using AWS CloudFormation?:
   - A. Creating and deleting a collection of resources together as a single unit 
   - B. Using templates to create and delete a collection of resources 
@@ -109,54 +45,6 @@ What is the benefit of using AWS CloudFormation?:
   - D. Editing and managing templates in the same source code repository 
   - E. All of the above 
   - E. All of the above 
-
-What is the purpose of using AWS CloudFormation parameters?:
-  - A. To specify a specific software version to be loaded 
-  - B. To create a collection of related AWS resources 
-  - C. To provision the full test environment 
-  - D. To simulate a bug detected in older versions of the software 
-  - E. All of the above 
-  - A. To specify a specific software version to be loaded 
-
-What is the main purpose of tests in software development?:
-  - A. To ensure software quality
-  - B. To find issues early in the development phase
-  - C. To reduce the cost of fixing issues
-  - D. To provide IT resources
-  - E. To eliminate the need for costly hardware
-  - B. To find issues early in the development phase
-
-What are some of the challenges faced by test teams?:
-  - A. Limited duration of test runs
-  - B. Lack of IT resources
-  - C. Different test environments
-  - D. Need for different IT infrastructure
-  - E. Varying capacity needs
-  - A, B, C, D, E
-
-What advantages does AWS provide to testers?:
-  - A. Setting up test environments in minutes
-  - B. Access to a variety of resources
-  - C. Elimination of administrative pain
-  - D. Pay-as-you-go value propositions
-  - E. Ability to run tests whenever needed
-  - A, B, C, D, E
-
-What can be used to reduce the cost of fixing issues?:
-  - A. Tests
-  - B. AWS
-  - C. IT resources
-  - D. Different instance types
-  - E. User acceptance tests
-  - A. Tests
-
-What does AWS offer to help test teams?:
-  - A. Elimination of the need for costly hardware
-  - B. Access to different instance types
-  - C. Setting up test environments in weeks
-  - D. Pay-as-you-go value propositions
-  - E. Ability to run tests whenever needed
-  - A, B, D, E
 
 What is the equivalent of hibernating the operating system when shutting down a development environment?:
   - A. Stop the instances 
@@ -174,14 +62,6 @@ What happens to the data stored on ephemeral drives when a stop/start sequence i
   - E. Data is committed 
   - C. Data is lost 
 
-What is the purpose of terminating an instance?:
-  - A. Save resources and cost 
-  - B. Reopen the lid of a laptop 
-  - C. Delete the root device 
-  - D. Backup or snapshot available 
-  - E. Commit all work 
-  - E. Commit all work 
-
 What is the DeleteOnTermination flag?:
   - A. Used to commit all work 
   - B. Used to save resources and cost 
@@ -190,38 +70,6 @@ What is the DeleteOnTermination flag?:
   - E. Used to prevent data loss 
   - C. Used to delete the root device 
 
-When does the Amazon EBS volume store the state?:
-  - A. When stopping the instance 
-  - B. When terminating the instance 
-  - C. When the DeleteOnTermination flag is set 
-  - D. When the instance is recreated from an AMI 
-  - E. When the lid of a laptop is reopened 
-  - A. When stopping the instance 
-
-What is the primary use of a local laptop or desktop for developers?:
-  - A. To install and maintain specialized sets of tools
-  - B. To run the development environment
-  - C. To store source code
-  - D. To bundle AMI(s)
-  - E. To switch context
-  - B. To run the development environment
-
-What is the benefit of using an on-demand development environment hosted in AWS?:
-  - A. It is easy to switch context
-  - B. It is easy to set up collections of AWS resources
-  - C. It is easy to set up test environments
-  - D. It is resource intensive
-  - E. It is cost effective
-  - E. It is cost effective
-
-What is the concept of hosted desktops not limited to?:
-  - A. Development environments
-  - B. AWS resources
-  - C. Amazon VPC
-  - D. On-premise resources
-  - E. LDAP
-  - A. Development environments
-
 What does Amazon VPC allow?:
   - A. To store source code
   - B. To bundle AMI(s)
@@ -229,14 +77,6 @@ What does Amazon VPC allow?:
   - D. To install and maintain specialized sets of tools
   - E. To switch context
   - C. To extend the on-premise private network to the cloud
-
-What is discussed further in the Testing section?:
-  - A. Setting up test environments
-  - B. Using an on-demand development environment
-  - C. Installing and maintaining specialized sets of tools
-  - D. Switching context
-  - E. Extending the on-premise private network to the cloud
-  - A. Setting up test environments 
 
 What is the purpose of creating separate accounts for development and test activities?:
   - A. To help customers understand the development and test cycle 
@@ -254,14 +94,6 @@ What does AWS offer to enable sharing of resources across accounts?:
   - E. Resource tagging 
   - A. Amazon S3 objects, B. AMIs, C. Amazon EBS Snapshots 
 
-What are some options to separate out and allocate the cost for the various activities and phases of the development and test cycle?:
-  - A. Use separate accounts 
-  - B. Consolidate multiple accounts 
-  - C. Use the Cost Allocation Report 
-  - D. Organize and track AWS costs 
-  - E. Represent the various stages or teams of the development cycle 
-  - A. Use separate accounts, B. Consolidate multiple accounts, C. Use the Cost Allocation Report 
-
 What is the purpose of resource tagging?:
   - A. To help customers understand the development and test cycle 
   - B. To separate teams and responsibilities 
@@ -270,18 +102,75 @@ What is the purpose of resource tagging?:
   - E. To organize and track AWS costs 
   - E. To organize and track AWS costs 
 
-What are some dimensions that can be used when using resource tagging?:
-  - A. Amazon S3 objects 
-  - B. AMIs 
-  - C. Amazon EBS Snapshots 
-  - D. Cost Allocation Report 
-  - E. Various stages or teams of the development cycle 
-  - E. Various stages or teams of the development cycle 
+What does the AWS Global Cloud Infrastructure consist of?:
+  - A. Availability Zones, Regions, and Edge Networks
+  - B. Servers, Networking Devices, and Storage Appliances
+  - C. Data Centers, Servers, and Networking Devices
+  - D. Availability Zones, Data Centers, and Edge Networks
+  - E. Regions, Servers, and Storage Appliances
+  - A. Availability Zones, Regions, and Edge Networks 
 
-What are some services that are inherently fault-tolerant?:
-  - A. Amazon EC2, Amazon EBS, and Amazon RDS
-  - B. Amazon S3, Amazon DynamoDB, Amazon SimpleDB, Amazon SQS, Amazon Route 53, and Amazon CloudFront
-  - C. Amazon VPC, Security Groups, and IAM credentials
-  - D. Amazon CloudWatch and AWS SDKs
-  - E. AWS CloudFormation stacks and other automation techniques
-  - B. Amazon S3, Amazon DynamoDB, Amazon SimpleDB, Amazon SQS, Amazon Route 53, and Amazon CloudFront
+What is the AWS Global Cloud Infrastructure used for?:
+  - A. To provide a secure and reliable cloud platform
+  - B. To run applications in two or more data centers
+  - C. To deliver cached content to global end-users
+  - D. To open up new regions faster than other cloud providers
+  - E. To serve over a million active customers in 190 countries
+  - A. To provide a secure and reliable cloud platform
+
+How many data centers does AWS own and operate?:
+  - A. Hundreds
+  - B. Thousands
+  - C. Tens of thousands
+  - D. Hundreds of thousands
+  - E. Millions
+  - B. Thousands
+
+What is the primary purpose of using data centers?:
+  - A. To house computer systems, network devices, and storage appliances
+  - B. To open up new regions faster than other cloud providers
+  - C. To deliver cached content to global end-users
+  - D. To provide a secure and reliable cloud platform
+  - E. To serve over a million active customers in 190 countries
+  - A. To house computer systems, network devices, and storage appliances 
+
+
+What is an Availability Zone?:
+  - A. A cluster of interconnected data centers in a specific geographic zone
+  - B. A single AWS Region
+  - C. A single datacenter
+  - D. A specific country
+  - E. A data privacy compliance
+  - A. A cluster of interconnected data centers in a specific geographic zone
+
+What is the purpose of running an application or a database in two or more Availability Zones?:
+  - A. To improve the durability of data
+  - B. To replicate data to two or more regions
+  - C. To comply with data sovereignty requirement
+  - D. To build a highly available, fault-tolerant, and scalable cloud architecture
+  - E. To store sensitive data in a certain location or country
+  - D. To build a highly available, fault-tolerant, and scalable cloud architecture
+
+What is the typical distance between the data centers of a single Availability Zone?:
+  - A. 100 kilometers
+  - B. 60 miles
+  - C. Hundreds of kilometers
+  - D. Hundreds of miles
+  - E. Within a specific country
+  - B. 60 miles
+
+What is the purpose of replicating data to two or more regions?:
+  - A. To improve the durability of data
+  - B. To comply with data sovereignty requirement
+  - C. To build a highly available, fault-tolerant, and scalable cloud architecture
+  - D. To store sensitive data in a certain location or country
+  - E. To replicate data to two or more availability zones
+  - A. To improve the durability of data
+
+What is the purpose of data sovereignty requirement?:
+  - A. To improve the durability of data
+  - B. To replicate data to two or more regions
+  - C. To comply with data sovereignty requirement
+  - D. To build a highly available, fault-tolerant, and scalable cloud architecture
+  - E. To store sensitive data in a certain location or country
+  - E. To store sensitive data in a certain location or country 
