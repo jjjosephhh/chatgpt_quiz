@@ -1,16 +1,5 @@
 [
     {
-        "question": "What are the benefits of using AWS for software development teams?",
-        "options": [
-            "A. On-demand access to a wide range of cloud infrastructure services",
-            "B. Elimination of the need for costly hardware and administrative pain",
-            "C. Significant operational advantages",
-            "D. Ability to set up a development and test infrastructure quickly",
-            "E. Allocation of resources depending on each project’s needs and budget"
-        ],
-        "answer": "A, B, C, D, E"
-    },
-    {
         "question": "What type of expenditure is associated with owning hardware and IT infrastructure?",
         "options": [
             "A. One-time",
@@ -20,39 +9,6 @@
             "E. Recurring"
         ],
         "answer": "D"
-    },
-    {
-        "question": "What type of timescale usually applies to development and test teams?",
-        "options": [
-            "A. Hours",
-            "B. Days",
-            "C. Weeks",
-            "D. Months",
-            "E. Years"
-        ],
-        "answer": "A, B, C, D"
-    },
-    {
-        "question": "What are the advantages of operating development tools on AWS?",
-        "options": [
-            "A. Reduced system maintenance tasks",
-            "B. Centralized production",
-            "C. Rationalized process",
-            "D. Coordinated efforts",
-            "E. Increased scalability"
-        ],
-        "answer": "A, D, E"
-    },
-    {
-        "question": "What is the main benefit of using AWS instead of traditional hardware?",
-        "options": [
-            "A. Reduced cost",
-            "B. Increased scalability",
-            "C. Quicker setup time",
-            "D. Increased production",
-            "E. Reduced administrative pain"
-        ],
-        "answer": "A, C, E"
     },
     {
         "question": "What is an Amazon Machine Image (AMI)?",
@@ -66,28 +22,6 @@
         "answer": "A. A template that contains a software configuration (operating system, application server, and applications) that you can run on Amazon EC2."
     },
     {
-        "question": "What is the purpose of creating an Amazon Elastic Compute Cloud (Amazon EC2) instance?",
-        "options": [
-            "A. To durably store the data of the version control repository.",
-            "B. To quickly recreate an instance without having to reinstall and reconfigure the version control software.",
-            "C. To store the repository’s data separately from the host system.",
-            "D. To provide a static endpoint to an Amazon EC2 instance.",
-            "E. To take point-in-time snapshots of the EBS volume containing the repository data."
-        ],
-        "answer": "B. To quickly recreate an instance without having to reinstall and reconfigure the version control software."
-    },
-    {
-        "question": "How can you achieve durability of the source code repository?",
-        "options": [
-            "A. By creating an Amazon Elastic Compute Cloud (Amazon EC2) instance.",
-            "B. By taking point-in-time snapshots of the EBS volume containing the repository data.",
-            "C. By storing the repository’s data separately from the host system.",
-            "D. By using an Elastic IP Address to provide a static endpoint to an Amazon EC2 instance.",
-            "E. By using Amazon Simple Storage Service (Amazon S3) to redundantly store objects on multiple devices across multiple facilities in an Amazon S3 Region."
-        ],
-        "answer": "B. By taking point-in-time snapshots of the EBS volume containing the repository data."
-    },
-    {
         "question": "What is the maximum storage capacity of an Amazon Elastic Block Store (Amazon EBS) volume?",
         "options": [
             "A. 1 MB",
@@ -97,17 +31,6 @@
             "E. 1 TB"
         ],
         "answer": "E. 1 TB"
-    },
-    {
-        "question": "What are two solutions available when the source code repository grows and requires more storage capacity?",
-        "options": [
-            "A. Provision and attach additional Amazon EBS volumes to the repository instance.",
-            "B. Provision a new larger Amazon EBS volume based on a recent snapshot of the existing repository data.",
-            "C. Store the repository’s data separately from the host system.",
-            "D. Use an Elastic IP Address to provide a static endpoint to an Amazon EC2 instance.",
-            "E. Use Amazon Simple Storage Service (Amazon S3) to redundantly store objects on multiple devices across multiple facilities in an Amazon S3 Region."
-        ],
-        "answer": "A, B"
     },
     {
         "question": "What is the challenge of running tests on AWS?",
@@ -121,28 +44,6 @@
         "answer": "E. All of the above"
     },
     {
-        "question": "What is the benefit of running tests on AWS?",
-        "options": [
-            "A. Automating the process of running tests",
-            "B. Creating tests suites on AWS",
-            "C. Allocating a new server, allocating and attaching storage, allocating a database",
-            "D. Designing tests suites on AWS",
-            "E. All of the above"
-        ],
-        "answer": "E. All of the above"
-    },
-    {
-        "question": "What is the challenge with AMI-based deployments?",
-        "options": [
-            "A. Having to define a strategy for managing and maintaining multiple versions of AMIs",
-            "B. Automating the process of creating a new AMI",
-            "C. Provisioning Amazon EC2 instances from AMIs",
-            "D. Instantiating a fully operational database",
-            "E. All of the above"
-        ],
-        "answer": "A. Having to define a strategy for managing and maintaining multiple versions of AMIs"
-    },
-    {
         "question": "What is the benefit of using AWS CloudFormation?",
         "options": [
             "A. Creating and deleting a collection of resources together as a single unit",
@@ -152,72 +53,6 @@
             "E. All of the above"
         ],
         "answer": "E. All of the above"
-    },
-    {
-        "question": "What is the purpose of using AWS CloudFormation parameters?",
-        "options": [
-            "A. To specify a specific software version to be loaded",
-            "B. To create a collection of related AWS resources",
-            "C. To provision the full test environment",
-            "D. To simulate a bug detected in older versions of the software",
-            "E. All of the above"
-        ],
-        "answer": "A. To specify a specific software version to be loaded"
-    },
-    {
-        "question": "What is the main purpose of tests in software development?",
-        "options": [
-            "A. To ensure software quality",
-            "B. To find issues early in the development phase",
-            "C. To reduce the cost of fixing issues",
-            "D. To provide IT resources",
-            "E. To eliminate the need for costly hardware"
-        ],
-        "answer": "B. To find issues early in the development phase"
-    },
-    {
-        "question": "What are some of the challenges faced by test teams?",
-        "options": [
-            "A. Limited duration of test runs",
-            "B. Lack of IT resources",
-            "C. Different test environments",
-            "D. Need for different IT infrastructure",
-            "E. Varying capacity needs"
-        ],
-        "answer": "A, B, C, D, E"
-    },
-    {
-        "question": "What advantages does AWS provide to testers?",
-        "options": [
-            "A. Setting up test environments in minutes",
-            "B. Access to a variety of resources",
-            "C. Elimination of administrative pain",
-            "D. Pay-as-you-go value propositions",
-            "E. Ability to run tests whenever needed"
-        ],
-        "answer": "A, B, C, D, E"
-    },
-    {
-        "question": "What can be used to reduce the cost of fixing issues?",
-        "options": [
-            "A. Tests",
-            "B. AWS",
-            "C. IT resources",
-            "D. Different instance types",
-            "E. User acceptance tests"
-        ],
-        "answer": "A. Tests"
-    },
-    {
-        "question": "What does AWS offer to help test teams?",
-        "options": [
-            "A. Elimination of the need for costly hardware",
-            "B. Access to different instance types",
-            "C. Setting up test environments in weeks",
-            "D. Pay-as-you-go value propositions",
-            "E. Ability to run tests whenever needed"
-        ],
-        "answer": "A, B, D, E"
     },
     {
         "question": "What is the equivalent of hibernating the operating system when shutting down a development environment?",
@@ -242,17 +77,6 @@
         "answer": "C. Data is lost"
     },
     {
-        "question": "What is the purpose of terminating an instance?",
-        "options": [
-            "A. Save resources and cost",
-            "B. Reopen the lid of a laptop",
-            "C. Delete the root device",
-            "D. Backup or snapshot available",
-            "E. Commit all work"
-        ],
-        "answer": "E. Commit all work"
-    },
-    {
         "question": "What is the DeleteOnTermination flag?",
         "options": [
             "A. Used to commit all work",
@@ -264,50 +88,6 @@
         "answer": "C. Used to delete the root device"
     },
     {
-        "question": "When does the Amazon EBS volume store the state?",
-        "options": [
-            "A. When stopping the instance",
-            "B. When terminating the instance",
-            "C. When the DeleteOnTermination flag is set",
-            "D. When the instance is recreated from an AMI",
-            "E. When the lid of a laptop is reopened"
-        ],
-        "answer": "A. When stopping the instance"
-    },
-    {
-        "question": "What is the primary use of a local laptop or desktop for developers?",
-        "options": [
-            "A. To install and maintain specialized sets of tools",
-            "B. To run the development environment",
-            "C. To store source code",
-            "D. To bundle AMI(s)",
-            "E. To switch context"
-        ],
-        "answer": "B. To run the development environment"
-    },
-    {
-        "question": "What is the benefit of using an on-demand development environment hosted in AWS?",
-        "options": [
-            "A. It is easy to switch context",
-            "B. It is easy to set up collections of AWS resources",
-            "C. It is easy to set up test environments",
-            "D. It is resource intensive",
-            "E. It is cost effective"
-        ],
-        "answer": "E. It is cost effective"
-    },
-    {
-        "question": "What is the concept of hosted desktops not limited to?",
-        "options": [
-            "A. Development environments",
-            "B. AWS resources",
-            "C. Amazon VPC",
-            "D. On-premise resources",
-            "E. LDAP"
-        ],
-        "answer": "A. Development environments"
-    },
-    {
         "question": "What does Amazon VPC allow?",
         "options": [
             "A. To store source code",
@@ -317,17 +97,6 @@
             "E. To switch context"
         ],
         "answer": "C. To extend the on-premise private network to the cloud"
-    },
-    {
-        "question": "What is discussed further in the Testing section?",
-        "options": [
-            "A. Setting up test environments",
-            "B. Using an on-demand development environment",
-            "C. Installing and maintaining specialized sets of tools",
-            "D. Switching context",
-            "E. Extending the on-premise private network to the cloud"
-        ],
-        "answer": "A. Setting up test environments"
     },
     {
         "question": "What is the purpose of creating separate accounts for development and test activities?",
@@ -352,17 +121,6 @@
         "answer": "A. Amazon S3 objects, B. AMIs, C. Amazon EBS Snapshots"
     },
     {
-        "question": "What are some options to separate out and allocate the cost for the various activities and phases of the development and test cycle?",
-        "options": [
-            "A. Use separate accounts",
-            "B. Consolidate multiple accounts",
-            "C. Use the Cost Allocation Report",
-            "D. Organize and track AWS costs",
-            "E. Represent the various stages or teams of the development cycle"
-        ],
-        "answer": "A. Use separate accounts, B. Consolidate multiple accounts, C. Use the Cost Allocation Report"
-    },
-    {
         "question": "What is the purpose of resource tagging?",
         "options": [
             "A. To help customers understand the development and test cycle",
@@ -374,25 +132,168 @@
         "answer": "E. To organize and track AWS costs"
     },
     {
-        "question": "What are some dimensions that can be used when using resource tagging?",
+        "question": "What does the AWS Global Cloud Infrastructure consist of?",
         "options": [
-            "A. Amazon S3 objects",
-            "B. AMIs",
-            "C. Amazon EBS Snapshots",
-            "D. Cost Allocation Report",
-            "E. Various stages or teams of the development cycle"
+            "A. Availability Zones, Regions, and Edge Networks",
+            "B. Servers, Networking Devices, and Storage Appliances",
+            "C. Data Centers, Servers, and Networking Devices",
+            "D. Availability Zones, Data Centers, and Edge Networks",
+            "E. Regions, Servers, and Storage Appliances"
         ],
-        "answer": "E. Various stages or teams of the development cycle"
+        "answer": "A. Availability Zones, Regions, and Edge Networks"
     },
     {
-        "question": "What are some services that are inherently fault-tolerant?",
+        "question": "What is the AWS Global Cloud Infrastructure used for?",
         "options": [
-            "A. Amazon EC2, Amazon EBS, and Amazon RDS",
-            "B. Amazon S3, Amazon DynamoDB, Amazon SimpleDB, Amazon SQS, Amazon Route 53, and Amazon CloudFront",
-            "C. Amazon VPC, Security Groups, and IAM credentials",
-            "D. Amazon CloudWatch and AWS SDKs",
-            "E. AWS CloudFormation stacks and other automation techniques"
+            "A. To provide a secure and reliable cloud platform",
+            "B. To run applications in two or more data centers",
+            "C. To deliver cached content to global end-users",
+            "D. To open up new regions faster than other cloud providers",
+            "E. To serve over a million active customers in 190 countries"
         ],
-        "answer": "B. Amazon S3, Amazon DynamoDB, Amazon SimpleDB, Amazon SQS, Amazon Route 53, and Amazon CloudFront"
+        "answer": "A. To provide a secure and reliable cloud platform"
+    },
+    {
+        "question": "How many data centers does AWS own and operate?",
+        "options": [
+            "A. Hundreds",
+            "B. Thousands",
+            "C. Tens of thousands",
+            "D. Hundreds of thousands",
+            "E. Millions"
+        ],
+        "answer": "B. Thousands"
+    },
+    {
+        "question": "What is the primary purpose of using data centers?",
+        "options": [
+            "A. To house computer systems, network devices, and storage appliances",
+            "B. To open up new regions faster than other cloud providers",
+            "C. To deliver cached content to global end-users",
+            "D. To provide a secure and reliable cloud platform",
+            "E. To serve over a million active customers in 190 countries"
+        ],
+        "answer": "A. To house computer systems, network devices, and storage appliances"
+    },
+    {
+        "question": "What is an Availability Zone?",
+        "options": [
+            "A. A cluster of interconnected data centers in a specific geographic zone",
+            "B. A single AWS Region",
+            "C. A single datacenter",
+            "D. A specific country",
+            "E. A data privacy compliance"
+        ],
+        "answer": "A. A cluster of interconnected data centers in a specific geographic zone"
+    },
+    {
+        "question": "What is the purpose of running an application or a database in two or more Availability Zones?",
+        "options": [
+            "A. To improve the durability of data",
+            "B. To replicate data to two or more regions",
+            "C. To comply with data sovereignty requirement",
+            "D. To build a highly available, fault-tolerant, and scalable cloud architecture",
+            "E. To store sensitive data in a certain location or country"
+        ],
+        "answer": "D. To build a highly available, fault-tolerant, and scalable cloud architecture"
+    },
+    {
+        "question": "What is the typical distance between the data centers of a single Availability Zone?",
+        "options": [
+            "A. 100 kilometers",
+            "B. 60 miles",
+            "C. Hundreds of kilometers",
+            "D. Hundreds of miles",
+            "E. Within a specific country"
+        ],
+        "answer": "B. 60 miles"
+    },
+    {
+        "question": "What is the purpose of replicating data to two or more regions?",
+        "options": [
+            "A. To improve the durability of data",
+            "B. To comply with data sovereignty requirement",
+            "C. To build a highly available, fault-tolerant, and scalable cloud architecture",
+            "D. To store sensitive data in a certain location or country",
+            "E. To replicate data to two or more availability zones"
+        ],
+        "answer": "A. To improve the durability of data"
+    },
+    {
+        "question": "What is the purpose of data sovereignty requirement?",
+        "options": [
+            "A. To improve the durability of data",
+            "B. To replicate data to two or more regions",
+            "C. To comply with data sovereignty requirement",
+            "D. To build a highly available, fault-tolerant, and scalable cloud architecture",
+            "E. To store sensitive data in a certain location or country"
+        ],
+        "answer": "E. To store sensitive data in a certain location or country"
+    },
+    {
+        "question": "Q3. What is an AWS Local Region?",
+        "options": [
+            "A. A region code followed by a letter identifier",
+            "B. A single datacenter designed to complement an existing AWS Region",
+            "C. A point of presence used by CloudFront and Lambda@edge services",
+            "D. A location that CloudFront uses to cache copies of content",
+            "E. A low-latency connection between two networks"
+        ],
+        "answer": "B. A single datacenter designed to complement an existing AWS Region"
+    },
+    {
+        "question": "Q4. What is the purpose of an Edge Location?",
+        "options": [
+            "A. To provide a secure cloud platform for businesses",
+            "B. To provide a global edge network of Points-of-Presence",
+            "C. To provide a content delivery network",
+            "D. To provide a low-latency connection between two networks",
+            "E. To provide a location that CloudFront uses to cache copies of content"
+        ],
+        "answer": "E. To provide a location that CloudFront uses to cache copies of content"
+    },
+    {
+        "question": "What are the three fundamental drivers of cost with AWS?",
+        "options": [
+            "A. Compute, Storage, and Inbound data transfer",
+            "B. Compute, Storage, and Outbound data transfer",
+            "C. Compute, Storage, and Networking",
+            "D. Compute, Storage, and Database",
+            "E. Compute, Storage, and Security"
+        ],
+        "answer": "B. Compute, Storage, and Outbound data transfer"
+    },
+    {
+        "question": "What is the maximum discount you can get with Reserved Instances?",
+        "options": [
+            "A. 25%",
+            "B. 50%",
+            "C. 65%",
+            "D. 75%",
+            "E. 90%"
+        ],
+        "answer": "D. 75%"
+    },
+    {
+        "question": "What is the All Upfront option for Reserved Instances?",
+        "options": [
+            "A. A low upfront payment and a discounted hourly rate for the duration of the Reserved Instance term",
+            "B. A large upfront payment and a discounted hourly rate for the duration of the Reserved Instance term",
+            "C. A low upfront payment and no discounted hourly rate for the duration of the Reserved Instance term",
+            "D. A large upfront payment and no discounted hourly rate for the duration of the Reserved Instance term",
+            "E. No upfront payment and no discounted hourly rate for the duration of the Reserved Instance term"
+        ],
+        "answer": "B. A large upfront payment and a discounted hourly rate for the duration of the Reserved Instance term"
+    },
+    {
+        "question": "What is AWS Free Tier?",
+        "options": [
+            "A. A discounted hourly rate for the duration of the Reserved Instance term",
+            "B. A free trial of AWS products for 12 months",
+            "C. A free trial of AWS products for 6 months",
+            "D. A free trial of AWS products for 24 months",
+            "E. A free trial of AWS products for 36 months"
+        ],
+        "answer": "B. A free trial of AWS products for 12 months"
     }
 ]

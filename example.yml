@@ -1,11 +1,3 @@
-What are the benefits of using AWS for software development teams?:
-  - A. On-demand access to a wide range of cloud infrastructure services
-  - B. Elimination of the need for costly hardware and administrative pain
-  - C. Significant operational advantages
-  - D. Ability to set up a development and test infrastructure quickly
-  - E. Allocation of resources depending on each project’s needs and budget
-  - A, B, C, D, E
-
 What type of expenditure is associated with owning hardware and IT infrastructure?:
   - A. One-time
   - B. Monthly
@@ -174,3 +166,51 @@ What is the purpose of data sovereignty requirement?:
   - D. To build a highly available, fault-tolerant, and scalable cloud architecture
   - E. To store sensitive data in a certain location or country
   - E. To store sensitive data in a certain location or country 
+
+Q3. What is an AWS Local Region?:
+  - A. A region code followed by a letter identifier
+  - B. A single datacenter designed to complement an existing AWS Region
+  - C. A point of presence used by CloudFront and Lambda@edge services
+  - D. A location that CloudFront uses to cache copies of content
+  - E. A low-latency connection between two networks
+  - B. A single datacenter designed to complement an existing AWS Region
+
+Q4. What is the purpose of an Edge Location?:
+  - A. To provide a secure cloud platform for businesses
+  - B. To provide a global edge network of Points-of-Presence
+  - C. To provide a content delivery network
+  - D. To provide a low-latency connection between two networks
+  - E. To provide a location that CloudFront uses to cache copies of content
+  - E. To provide a location that CloudFront uses to cache copies of content 
+
+What are the three fundamental drivers of cost with AWS?:
+  - A. Compute, Storage, and Inbound data transfer
+  - B. Compute, Storage, and Outbound data transfer
+  - C. Compute, Storage, and Networking
+  - D. Compute, Storage, and Database
+  - E. Compute, Storage, and Security
+  - B. Compute, Storage, and Outbound data transfer
+
+What is the maximum discount you can get with Reserved Instances?:
+  - A. 25%
+  - B. 50%
+  - C. 65%
+  - D. 75%
+  - E. 90%
+  - D. 75%
+
+What is the All Upfront option for Reserved Instances?:
+  - A. A low upfront payment and a discounted hourly rate for the duration of the Reserved Instance term
+  - B. A large upfront payment and a discounted hourly rate for the duration of the Reserved Instance term
+  - C. A low upfront payment and no discounted hourly rate for the duration of the Reserved Instance term
+  - D. A large upfront payment and no discounted hourly rate for the duration of the Reserved Instance term
+  - E. No upfront payment and no discounted hourly rate for the duration of the Reserved Instance term
+  - B. A large upfront payment and a discounted hourly rate for the duration of the Reserved Instance term
+
+What is AWS Free Tier?:
+  - A. A discounted hourly rate for the duration of the Reserved Instance term
+  - B. A free trial of AWS products for 12 months
+  - C. A free trial of AWS products for 6 months
+  - D. A free trial of AWS products for 24 months
+  - E. A free trial of AWS products for 36 months
+  - B. A free trial of AWS products for 12 months 
